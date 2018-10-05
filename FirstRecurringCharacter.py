@@ -1,4 +1,4 @@
-def firstRecurring(given_string):
+def first_recurring(given_string):
     counts = {}  # initialise a dictionary
     for char in given_string:
         if char in counts:
