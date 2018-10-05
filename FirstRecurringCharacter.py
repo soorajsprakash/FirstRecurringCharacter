@@ -1,4 +1,4 @@
-def first_recurring(given_string):
+def firstRecurring(given_string):
     counts = {}  # initialise a dictionary
     for char in given_string:
         if char in counts:
@@ -6,8 +6,9 @@ def first_recurring(given_string):
             return char
         else:
             counts[char] = 1
+    return None
 
 
 my_string = input("Enter your string:  ")
-first_recurring(my_string)
+firstRecurring(my_string)
 
