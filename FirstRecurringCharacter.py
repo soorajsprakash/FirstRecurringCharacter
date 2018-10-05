@@ -10,5 +10,5 @@ def first_recurring(given_string):
 
 
 my_string = input("Enter your string:  ")
-firstRecurring(my_string)
+first_recurring(my_string)
 
